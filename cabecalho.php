@@ -7,6 +7,9 @@
 		<link href="css/reset.css" rel="stylesheet">
 		<link href="css/estilos.css" rel="stylesheet">
 		<link href="css/mobile.css" rel="stylesheet" media="(max-width: 939px)">
+		<?php if (!empty($style)): ?>
+			<link href="css/<?php echo $style ?>" rel="stylesheet">
+		<?php endif ?>
 	</head>
 	<body>
 		<header class="conteiner">
