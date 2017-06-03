@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/checkout.css">
+	<script>alert('oi');</script>
 </head>
 <body>
 	<script src="js/jquery.js"></script>
@@ -124,5 +125,6 @@
 			</form>
 		</div>
 	</div>
+	<script>alert('Tchau');</script>
 </body>
 </html>
