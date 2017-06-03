@@ -1,4 +1,4 @@
-<?php 
+<?php
 $cabecalho_title = "Sobre a Mirror Fashion" ;
 include 'cabecalho.php';
 ?>
@@ -63,4 +63,5 @@ include 'cabecalho.php';
 				</section>
 			</div>
 		</main>
+		<script src="js/home.js"></script>
 <?php include 'rodape.php' ?>

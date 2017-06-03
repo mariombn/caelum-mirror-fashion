@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/checkout.css">
-	<script>alert('oi');</script>
 </head>
 <body>
 	<script src="js/jquery.js"></script>
@@ -52,8 +51,8 @@
 							<dt>Tamanho</dt>
 							<dd><?php echo $_POST['nome'] ?></dd>
 
-							<dt>Tamanho</dt>
-							<dd><?php echo $_POST['preco'] ?></dd>
+							<dt>Preço</dt>
+							<dd id="preco">R$ <?php echo $_POST['preco'] ?></dd>
 
 							<dt>Cor</dt>
 							<dd><?php echo $_POST['cor'] ?></dd>
@@ -61,6 +60,9 @@
 							<dt>Tamanho</dt>
 							<dd><?php echo $_POST['tamanho'] ?></dd>
 						</dl>
+
+						<input type="number" name="qtd" id="qtd" value="1" class="form-control">
+						<output name="total" id="total">R$ <?php echo $_POST['preco'] ?><output>
 					</div>
 				</div>
 			</div>
@@ -68,7 +70,7 @@
 				<div class="row">
 					<fieldset class="col-md-6">
 						<legend>Dados pessoais</legend>
-						
+
 						<div class="form-group">
 							<label for="nome">Nome completo</label>
 							<input type="text" name="nome" id="nome" class="form-control" autofocus required>
@@ -96,7 +98,7 @@
 
 					<fieldset class="col-md-6">
 						<legend>Cartão de credito</legend>
-						
+
 						<div class="form-group">
 							<label for="numero-cartao">Número Cartão - CVV</label>
 							<input type="text" name="numero-cartao" id="numero-cartao" class="form-control">
@@ -125,6 +127,6 @@
 			</form>
 		</div>
 	</div>
-	<script>alert('Tchau');</script>
+	<script src="js/checkout.js"></script>
 </body>
 </html>
