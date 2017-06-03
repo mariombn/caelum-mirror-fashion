@@ -48,7 +48,14 @@ include 'cabecalho.php';
 						<li><a href="#"><figure><img src="img/produtos/miniatura4.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
 						<li><a href="#"><figure><img src="img/produtos/miniatura5.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
 						<li><a href="#"><figure><img src="img/produtos/miniatura6.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura1.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura2.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura3.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura4.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura5.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura6.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
 					</ol>
+					<button type="button">Mostra mais</button>
 				</section>
 				<section class="painel mais-vendidos">
 					<h2>Mais Vendidos</h2>
@@ -59,9 +66,17 @@ include 'cabecalho.php';
 						<li><a href="#"><figure><img src="img/produtos/miniatura10.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
 						<li><a href="#"><figure><img src="img/produtos/miniatura11.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
 						<li><a href="#"><figure><img src="img/produtos/miniatura12.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura7.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura8.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura9.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura10.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura11.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
+						<li><a href="#"><figure><img src="img/produtos/miniatura12.png"><figcaption>Camisa Azul</figcaption></figure></a></li>
 					</ol>
+					<button type="button">Mostra mais</button>
 				</section>
 			</div>
 		</main>
+		<script src="js/jquery.js"></script>
 		<script src="js/home.js"></script>
 <?php include 'rodape.php' ?>
