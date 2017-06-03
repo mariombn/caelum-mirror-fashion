@@ -8,11 +8,12 @@
 	<link rel="stylesheet" href="css/checkout.css">
 </head>
 <body>
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+
 	<nav class="navbar navbar-default">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-target="navbar-collaspe-id">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collaspe-id">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
